@@ -926,6 +926,8 @@
                 n.origin ? "null" === n.origin ? "*" : n.origin : (4 < n.protocol.length ? n.protocol : window.location.protocol) + "//" + (n.host.length ? "80" === n.port || "443" === n.port ? n.hostname : n.host : window.location.host)
         };
         function w(t, n) {
+            console.log("929");
+            console.log(t.strictOrigin);
             var e = t.frame
                 , r = t.strictOrigin
                 , o = void 0 === r || r;
