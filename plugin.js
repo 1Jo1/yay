@@ -933,6 +933,7 @@
             var e = t.frame
                 , r = t.strictOrigin
                 , o = void 0 === r || r;
+            console.log(e.src);
             void 0 === n && (n = {});
             var i = W(n)
                 , a = i[0]
