@@ -201,6 +201,8 @@
         var r = e(12)
             , o = "object" === ("undefined" == typeof console ? "undefined" : e.n(r)()(console))
             , i = function(t) {
+            console.log("204");
+            console.log("[chatbot.com] - %s ".replace("%s", t));
             return "[chatbot.com] - %s ".replace("%s", t)
         }
             , a = function(t) {
